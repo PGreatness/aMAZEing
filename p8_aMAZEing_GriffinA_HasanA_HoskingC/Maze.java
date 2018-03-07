@@ -1,3 +1,7 @@
+//aMAZEing
+//APCS2 pd08
+//HW -- Thinkers of the Corn
+//2018-03-06
 /***
  * SKEELTON for class 
  * MazeSolver
