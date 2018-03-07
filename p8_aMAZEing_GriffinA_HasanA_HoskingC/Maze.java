@@ -9,7 +9,15 @@
  * (mazefile is ASCII representation of maze, using symbols below)
  * 
  * ALGORITHM for finding exit from starting position:
- *  <INSERT YOUR SUMMARY OF ALGO HERE>
+ *  If the position that the hero is on is the exit, return true because he got it.
+ *  If the hero is on a WALL character, return false because we haven't scienced out
+ * phasing through objects yet.
+ *  If The position would be off the board, meaning in the void, return false since
+ * we can't fly either.
+ *  If the maze returns you to a path once treaded, that is not the way. Turn away...
+ *  Else, set the current position as the hero's position and see if it is possible to
+ * go to any of the 4 adjacent slots. If so, return true and do it. If all that doesn't
+ * work, return false.
  ***/
 
 //enable file I/O
