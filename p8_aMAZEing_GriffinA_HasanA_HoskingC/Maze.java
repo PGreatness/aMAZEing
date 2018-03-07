@@ -1,4 +1,4 @@
-//aMAZEing
+//aMAZEing (Colin Hosking, Aidan Griffin, Ahnaf Hasan)
 //APCS2 pd08
 //HW -- Thinkers of the Corn
 //2018-03-06
